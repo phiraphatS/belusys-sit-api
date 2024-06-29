@@ -1,0 +1,13 @@
+[
+  {
+    "name": "default",
+    "type": "mysql",
+    "host": "node53939-belusysdb-1.th1.proen.cloud",
+    "port": 11320,
+    "username": "quizdev_aa",
+    "password": "2g2097WZ*iWs@qxO",
+    "database": "",
+    "synchronize": false,
+    "entities": ["entities/*.js"]
+  }
+]
