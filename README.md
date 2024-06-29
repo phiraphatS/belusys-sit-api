@@ -75,6 +75,7 @@ Nest is [MIT licensed](LICENSE).
 ## ENV file
 Create ".env.development" and add this config (for local only)
 
+```bash
 PORT = '5001'
 NODE_ENV = 'development'
 DATABASE_HOST = 'node53939-belusysdb-1.th1.proen.cloud'
@@ -84,3 +85,4 @@ DATABASE_USERNAME = 'quizdev_aa'
 DATABASE_PASSWORD = '2g2097WZ*iWs@qxO'
 DATABASE_SCHEMA = ''
 DATABASE_THICKMODE = 'false'
+```
