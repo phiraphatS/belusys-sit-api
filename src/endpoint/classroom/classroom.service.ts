@@ -267,9 +267,11 @@ export class ClassroomService {
         try {
             const sql = `
                 SELECT 
+                    std.studentid as \`key\`,
                     std.firstname,
                     std.lastname,
                     std.birthdate,
+                    CONCAT(pre.prefixname, " ", std.firstname, " ", std.lastname) AS fullname,
                     TIMESTAMPDIFF(YEAR, birthdate, CURDATE()) AS age,
                     gen.gendername,
                     pre.prefixname,
