@@ -59,8 +59,8 @@ async function bootstrap() {
   await app.listen(port);
 
   // console.log(`Application is running on port: ${port}`);
-  logger.log(`Application is running on port: ${port}`);
-  logger.log(`Application name: Belusys API`);
+  console.log(`Application is running on port     : ${port}`);
+  console.log(`Application name                   : Belusys API`);
   console.log('running...')
 }
 bootstrap();
